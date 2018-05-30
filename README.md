@@ -8,3 +8,4 @@ These data need to be treated separately, or they will have a bad influence on t
 Therefore, the core is to partition the training set into train_train and train_test firstly, and then use probe learning to pro-process the data and find those with worst accuracy.
 After removing those "bad guys" and their "neighbours", which are similar to them, conduct machine learning on the new data set.
 
+![](https://github.com/zzhou59/Selective-Learning/raw/master/pic/result.png)
